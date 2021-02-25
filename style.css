@@ -88,7 +88,9 @@ header h1 {
   right: 0;
   height: 100px;
 }
-
+.about {
+  overflow: hidden;
+}
 .about .container {
   position: relative;
   display: grid;
@@ -125,7 +127,7 @@ header h1 {
 .about .container .tri2 {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 10px;
   width: 100px;
   transform: rotate(0.5turn);
 }
@@ -182,6 +184,9 @@ header h1 {
   transform: rotate(45deg);
   right: 0;
   width: 100px;
+}
+.skill {
+  overflow: hidden;
 }
 .skill .container {
   position: relative;
@@ -345,8 +350,8 @@ header h1 {
     font-size: 1.5em;
   }
   .contact .container .tri2 {
-  width: 150px;
-}
+    width: 150px;
+  }
 }
 
 @media all and (max-width: 450px) {
@@ -378,6 +383,6 @@ header h1 {
     height: 100px;
   }
   .contact .container .tri2 {
-  width: 80px;
-}
+    width: 80px;
+  }
 }
