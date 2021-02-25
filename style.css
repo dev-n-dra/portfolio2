@@ -295,7 +295,7 @@ header h1 {
   top: 0;
   transform: rotate(105deg);
   right: 0;
-  width: 150px;
+  width: 100px;
 }
 
 @media all and (min-width: 768px) {
@@ -344,6 +344,9 @@ header h1 {
   .skill .container .bigbox .sbox h2 {
     font-size: 1.5em;
   }
+  .contact .container .tri2 {
+  width: 150px;
+}
 }
 
 @media all and (max-width: 450px) {
@@ -374,4 +377,7 @@ header h1 {
   .skill .container .bigbox .sbox {
     height: 100px;
   }
+  .contact .container .tri2 {
+  width: 80px;
+}
 }
